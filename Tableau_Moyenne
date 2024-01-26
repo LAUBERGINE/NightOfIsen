@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Notes</title>
+    <style>
+        /* Style pour la barre de navigation */
+        nav {
+            background-color: #333; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            padding: 10%; /* Espacement interne */
+        }
+
+        ul {
+            list-style-type: none; /* Supprimer les puces */
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline; /* Afficher les éléments de liste en ligne */
+            margin-right: 20%; /* Espacement entre les éléments */
+        }
+
+        a {
+            color: white; /* Couleur du texte des liens */
+            text-decoration: none; /* Supprimer le soulignement des liens */
+        }
+    </style>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Notes</a></li>
+            <li><a href="#">Planning</a></li>
+            <li><a href="#">Absences</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <div class ="notes"> 
+    <table>
+        <thead>
+            <tr>
+                <th>Matières     </th>
+                <th>note 1</th>
+                <th>note 2</th>
+                <th>note 3</th>
+                <th>note 4</th>
+                <th>Moyennes</th>
+                
+            </tr>
+        </thead>
+            <title>
+                Isen notes
+            </title>
+            <tbody>
+                <tr>
+                    <td>Exemple maths   </td>
+                    <td>15</td>
+                    <th>5</th>
+                    <th>20</th>
+                    <th>0</th>
+                    <th>Moyenne</th>
+                </tr> 
+                <tr>
+                    <td>Matière 2   </td>
+                    <td>Note 1</td>
+                    <td>Note 2</td>
+                    <td>Note 3</td>
+                    <td>Note 4</td>
+                    <td>Moyenne</td>
+                </tr>
+                <tr>
+                    <td>Matière 3   </td>
+                    <td>Note 1</td>
+                    <td>Note 2</td>
+                    <td>Note 3</td>
+                    <td>Note 4</td>
+                    <td>Moyenne</td>
+                </tr>
+            </tbody>
+    </table>
+
+
+    
+</body>
+</html>
