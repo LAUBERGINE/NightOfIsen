@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .notes-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notes-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .note-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .moyenne {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .moyenne p {
+    margin: 0;
+  }
+  
+  .moyenne span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
