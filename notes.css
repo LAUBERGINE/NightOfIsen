@@ -39,4 +39,46 @@ body {
     font-weight: bold;
     color: #007bff;
   }
+  .miaou {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF0000;
+    padding: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gauche, .droite {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gauche img, .droite img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+  }
+  
+  .vzioum{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .vzioum a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 50px;
+    background-color: #6F9EA6;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vzioum a:hover {
+    background-color: #6F9EA6;
+  }
+  
+
   
